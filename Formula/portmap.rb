@@ -1,30 +1,30 @@
 class Portmap < Formula
   desc "Map names to localhost ports. Made for agents and humans."
   homepage "https://github.com/jonasks/portmap"
-  version "0.1.0"
+  version "portmap-v0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/jonasks/portmap/releases/download/v#{version}/portmap-aarch64-apple-darwin.tar.gz"
-      # sha256 "UPDATE_AFTER_FIRST_RELEASE"
+      sha256 ""
     end
 
     on_intel do
       url "https://github.com/jonasks/portmap/releases/download/v#{version}/portmap-x86_64-apple-darwin.tar.gz"
-      # sha256 "UPDATE_AFTER_FIRST_RELEASE"
+      sha256 ""
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/jonasks/portmap/releases/download/v#{version}/portmap-aarch64-unknown-linux-gnu.tar.gz"
-      # sha256 "UPDATE_AFTER_FIRST_RELEASE"
+      sha256 ""
     end
 
     on_intel do
       url "https://github.com/jonasks/portmap/releases/download/v#{version}/portmap-x86_64-unknown-linux-gnu.tar.gz"
-      # sha256 "UPDATE_AFTER_FIRST_RELEASE"
+      sha256 ""
     end
   end
 
