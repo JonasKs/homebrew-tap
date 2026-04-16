@@ -1,30 +1,30 @@
 class Portmap < Formula
   desc "Map names to localhost ports. Made for agents and humans."
   homepage "https://github.com/jonasks/portmap"
-  version "0.7.1"
+  version "0.8.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/jonasks/portmap/releases/download/portmap-v0.7.1/portmap-aarch64-apple-darwin.tar.gz"
-      sha256 "5558b7c7500e44142c80e6ac03b41f750236b00f94476990364d72a80913a582"
+      url "https://github.com/jonasks/portmap/releases/download/portmap-v0.8.0/portmap-aarch64-apple-darwin.tar.gz"
+      sha256 "754d952c34d8434f0e3951509ce09b9a8531a36cdf9f6b6cbef40e204c0e3009"
     end
 
     on_intel do
-      url "https://github.com/jonasks/portmap/releases/download/portmap-v0.7.1/portmap-x86_64-apple-darwin.tar.gz"
-      sha256 "6e4d31abbf490bde06d03b7a4bf6bd3a86a489a93d6052ce0790b367e4cb7c3b"
+      url "https://github.com/jonasks/portmap/releases/download/portmap-v0.8.0/portmap-x86_64-apple-darwin.tar.gz"
+      sha256 "4c9648083d173794f57e24df475d36e13550ea1359d36ea403c20fd2c1ea030f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jonasks/portmap/releases/download/portmap-v0.7.1/portmap-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "eae586c873e9e083f668499878184f03e1fc9c293a7fd2e7b017b111a558c258"
+      url "https://github.com/jonasks/portmap/releases/download/portmap-v0.8.0/portmap-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "dc416eddfc6dd89c81cb234de543c118878d232d9db15107a59b37e0836a1a84"
     end
 
     on_intel do
-      url "https://github.com/jonasks/portmap/releases/download/portmap-v0.7.1/portmap-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "86853be76d469cf6da57835ef55a0f12fa98f825e531669c422117da2dcd36d0"
+      url "https://github.com/jonasks/portmap/releases/download/portmap-v0.8.0/portmap-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "2010fe9944b652a3ae12fdc535ace5b6e4353c8fd766ce0081835c84e6ca08ff"
     end
   end
 
