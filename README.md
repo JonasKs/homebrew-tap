@@ -1,10 +1,10 @@
 # homebrew-tap
 
-Homebrew formulae for [portmap](https://github.com/JonasKs/portmap).
+Homebrew formulae for [portmap](https://github.com/vibber-ai/portmap).
 
 ## Install
 
 ```bash
-brew tap jonasks/tap
+brew tap vibber-ai/tap
 brew install portmap
 ```
