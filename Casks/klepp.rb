@@ -1,6 +1,6 @@
 cask "klepp" do
-  version "0.1.0"
-  sha256 "8dc4259cb3df1a466b730c3c2956691e4134f12d8ab0c2be2e6723b4d5395c97"
+  version "0.2.0"
+  sha256 "e48e33fbf5cf42995dee072dabfd79d9f587ddeb337f1e68b68bd3325ca38fdd"
 
   url "https://github.com/jonasks/klepp/releases/download/v#{version}/Klepp-#{version}-aarch64.zip"
   name "Klepp"
@@ -18,9 +18,6 @@ cask "klepp" do
 
   caveats do
     <<~EOS
-      Klepp is ad-hoc signed, not notarized. If macOS refuses to open it:
-        xattr -dr com.apple.quarantine /Applications/Klepp.app
-
       Auto-paste (⏎) needs Accessibility access for Klepp in
       System Settings → Privacy & Security → Accessibility.
     EOS
