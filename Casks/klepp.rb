@@ -1,6 +1,6 @@
 cask "klepp" do
-  version "0.2.1"
-  sha256 "23119ac4e5b97c65f1b1f2e1803d80c51b6167fd5ad176f684c7d950b45f94e4"
+  version "0.3.0"
+  sha256 "0658181e6e34d747f00377e6bcec43559f6868a01d716de5ea486e852bd2f230"
 
   url "https://github.com/jonasks/klepp/releases/download/v#{version}/Klepp-#{version}-aarch64.zip"
   name "Klepp"
