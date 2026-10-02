@@ -12,11 +12,6 @@ cask "klepp" do
 
   app "Klepp.app"
 
-  # Start Klepp after install and bring it back after an upgrade.
-  postflight do
-    system_command "/usr/bin/open", args: ["#{appdir}/Klepp.app"]
-  end
-
   uninstall quit: "com.jonas.klepp"
 
   zap trash: "~/.klepp"
