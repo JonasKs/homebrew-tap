@@ -1,6 +1,6 @@
 cask "klepp" do
-  version "0.3.0"
-  sha256 "0658181e6e34d747f00377e6bcec43559f6868a01d716de5ea486e852bd2f230"
+  version "0.4.0"
+  sha256 "936b15a0ca7c4eff861f7e55b11ea525e9dddfd6c6b9651104a8e2b4ea83f5ec"
 
   url "https://github.com/jonasks/klepp/releases/download/v#{version}/Klepp-#{version}-aarch64.zip"
   name "Klepp"
@@ -12,6 +12,7 @@ cask "klepp" do
 
   app "Klepp.app"
 
+  # brew upgrade quits Klepp through this and reopens it afterwards.
   uninstall quit: "com.jonas.klepp"
 
   zap trash: "~/.klepp"
