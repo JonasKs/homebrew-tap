@@ -1,6 +1,6 @@
 cask "bytt" do
-  version "0.3.1"
-  sha256 "a6701b6083918418e9e141239e62d2d57762235b2edec28861668cad41e86d97"
+  version "0.4.0"
+  sha256 "6bebd799e263861a0fd1c88ef1f6a8c7a0679cfd96d8c88a1b81ad23e3460090"
 
   url "https://github.com/jonasks/bytt/releases/download/v#{version}/Bytt-#{version}-aarch64.zip"
   name "bytt"
